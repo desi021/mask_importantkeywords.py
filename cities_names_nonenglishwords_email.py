@@ -72,10 +72,10 @@ def decrypt_data(text, encryption_map):
 
 # Example usage
 original_text = "John Doe, a Developer from New York, can be reached at john.doe@example.com.John Doe, a Developer from New York, can be reached at john.doe@example.com.John Doe, a Developer from New York, can be reached at john.doe@example.com."
-
+decpty_text ="Punt Juk, a Ghyhorshu from Tkc Euxq, can be reached at mrkq.grh@hadpsoh.frp for inquiries and collaborations."
 print("Original Text:", original_text)
 encrypted_text, encryption_map = encrypt_data(original_text)
 print("\nEncrypted Text:", encrypted_text)
 
-decrypted_text = decrypt_data(encrypted_text, encryption_map)
+decrypted_text = decrypt_data(decpty_text, encryption_map)
 print("\nDecrypted Text:", decrypted_text)
